@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     
     // Swap the two cameras.
     void SwapCameras() {
-        if (camera1.active == false)
+        if (camera1.activeInHierarchy == false)
         {
             camera1.SetActive(true);
             camera2.SetActive(false);
